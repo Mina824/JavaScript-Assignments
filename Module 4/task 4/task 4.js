@@ -40,7 +40,7 @@
                     const link = document.createElement('a');
                     link.href = tvShow.url || '#';
                     link.textContent = 'Link to Details';
-                    link.target = "_blank"; // REQUIRED: Add target="_blank"
+                    link.target = "_blank"; 
                     const img = document.createElement('img');
                     img.src = tvShow.image
                         ? tvShow.image.medium
